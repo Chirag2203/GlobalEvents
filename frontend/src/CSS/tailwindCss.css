@@ -1,0 +1,4 @@
+
+.flex-container-16-4{
+    @apply flex py-4 px-16 items-center justify-between
+}
