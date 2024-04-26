@@ -112,14 +112,14 @@ const NavbarGroup = () => {
           </NavigationMenuContent>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link to={"/events"} legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Events
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
         <NavigationMenuItem>
-          <Link href="/docs" legacyBehavior passHref>
+          <Link to="/contact" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               Contact Us
             </NavigationMenuLink>

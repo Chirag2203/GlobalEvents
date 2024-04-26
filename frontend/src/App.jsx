@@ -3,7 +3,7 @@ import './App.css'
 import "./CSS/tailwindCss.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Login, Register } from './components/shared'
-import { Home, Event, AllEvents, Contact } from './components/audience'
+import { AllEvents, Event, Contact, Home } from './components/audience'
 import Navbar from './components/shared/Navbar/Navbar'
 
 

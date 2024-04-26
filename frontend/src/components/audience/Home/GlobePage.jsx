@@ -2,6 +2,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { World } from "../../ui/globe";
+import { SparklesCore } from "@/components/ui/sparkles";
 
 // Dynamically import the World component
 
@@ -395,6 +396,17 @@ export function GlobePage() {
 
   return (
     <div className="flex flex-row items-center justify-center py-20 h-screen md:h-auto dark:bg-black bg-white relative w-full">
+      <div className="w-full absolute inset-0 h-screen">
+        <SparklesCore
+          id="tsparticlesfullpage"
+          background="transparent"
+          minSize={0.3}
+          maxSize={1}
+          particleDensity={100}
+          className="w-full h-full"
+          particleColor="#FFFFFF"
+        />
+      </div>
       <div className="max-w-7xl mx-auto w-full relative overflow-hidden h-full md:h-[40rem] px-4">
         <motion.div
           initial={{
@@ -410,12 +422,10 @@ export function GlobePage() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-4xl uppercase font-bold text-black dark:text-white">
-            We Connect the World and Events
+          <h2 className="text-center text-xl md:text-5xl uppercase font-bold text-black dark:text-white">
+            We Connect you with the <br /> world of Events
           </h2>
-          <p className="text-center text-base md:text-lg font-normal text-neutral-700 dark:text-neutral-200 max-w-md mt-2 mx-auto">
-            Global Events is a platform that connects people and events from all over the world
-          </p>
+          
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
         <div className="absolute w-full -bottom-20 h-72 md:h-full z-10">
