@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { World } from "../ui/globe";
+import { World } from "../../ui/globe";
 
 // Dynamically import the World component
 

@@ -1,11 +1,13 @@
 import React from 'react'
-import { Globe } from '../ui/globe'
 import { GlobePage } from './GlobePage'
+import { TitelPage } from './TitelPage'
+import { HeroHighlightPage } from './HeroHighlightPage'
 
 const Home = () => {
   return (
-    <div className='audience-page-container'>
+    <div className=''>
       <GlobePage/>
+      <HeroHighlightPage/>
     </div>
   )
 }
