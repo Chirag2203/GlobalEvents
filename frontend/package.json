@@ -12,13 +12,17 @@
   "dependencies": {
     "@radix-ui/react-navigation-menu": "^1.1.4",
     "@radix-ui/react-slot": "^1.0.2",
+    "@react-three/drei": "^9.105.4",
+    "@react-three/fiber": "^8.16.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "lucide-react": "^0.373.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.3.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.164.0",
+    "three-globe": "^2.31.0"
   },
   "devDependencies": {
     "@types/node": "^20.12.7",

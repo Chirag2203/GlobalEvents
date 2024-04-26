@@ -1,13 +1,21 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './App.css'
 import "./CSS/tailwindCss.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Login, Register } from './components/shared'
-import { Home, Event, AllEvents, Contact } from './components/pages'
+import { Home, Event, AllEvents, Contact } from './components/audience'
 import Navbar from './components/shared/Navbar/Navbar'
 
 
 const App = () => {
+  useEffect(() => {
+    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  },[])
+  
   return (
     <div className=''>
       <Router>

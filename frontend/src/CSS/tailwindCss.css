@@ -2,3 +2,7 @@
 .flex-container-16-4{
     @apply flex py-4 px-16 items-center justify-between
 }
+
+.audience-page-container{
+    @apply px-4 min-h-screen dark:bg-black bg-gray-100
+}
