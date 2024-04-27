@@ -1,11 +1,11 @@
 import React from 'react'
-import AllEventsNavbar from './AllEventsNavbar'
+import CategoryEventsNavbar from './CategoryEventsNavbar'
 import SponsoredEventsSidebar from './SponsoredEventsSidebar'
 
-const AllEventsConsole = ({children}) => {
+const CategoryEvents = ({children}) => {
   return (
     <div className='min-h-screen'>
-      <AllEventsNavbar/>
+      <CategoryEventsNavbar/>
       <div className='flex  min-h-screen'>
         <div className='w-4/5'>
         {children}
@@ -19,4 +19,4 @@ const AllEventsConsole = ({children}) => {
   )
 }
 
-export default AllEventsConsole
+export default CategoryEvents

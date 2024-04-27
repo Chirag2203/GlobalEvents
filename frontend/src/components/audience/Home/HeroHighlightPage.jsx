@@ -25,8 +25,14 @@ export function HeroHighlightPage() {
           life can't be.
         </Highlight>
         <div className="flex gap-4 justify-center items-center mt-8">
-          <Button  className="rounded-full  ">Know More</Button>
-          <Button  className="rounded-full">Explore Events</Button>
+          <Button className="flex-standard-row-2 gradient-blue text-white rounded-full px-5">
+            {" "}
+            Get started 
+          </Button>
+          <Button className="flex-standard-row-2 border border-blue-500 bg-transparent hover:bg-transparent text-white rounded-full px-5">
+            {" "}
+            Know more
+          </Button>
         </div>
       </motion.h1>
     </HeroHighlight>

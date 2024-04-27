@@ -1,6 +1,7 @@
-import AllEvents from "./Events/AllEvents";
+import AllEventsHome from "./Events/EventsHome/AllEventsHome";
 import Event from "./Event";
 import Home from "./Home/Home";
 import Contact from "./Contact";
+import CategoryEvents from "./Events/CategoryEvents";
 
-export { AllEvents, Event, Home, Contact };
+export { AllEventsHome, Event, Home, Contact, CategoryEvents };

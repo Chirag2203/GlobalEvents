@@ -6,3 +6,40 @@
 .audience-page-container{
     @apply px-4 min-h-screen dark:bg-black bg-gray-100
 }
+
+.gradient-blue{
+    @apply bg-gradient-to-tr from-blue-700 to-sky-600 hover:from-blue-700 hover:to-sky-700
+}
+
+.gradient-green{
+    @apply bg-gradient-to-tr from-green-700 to-lime-600
+}
+
+.gradient-red{
+    @apply bg-gradient-to-tr from-red-700 to-rose-600
+}
+
+.gradient-yellow{
+    @apply bg-gradient-to-tr from-amber-700 to-amber-600
+}
+.text-gradient-steel{
+    @apply bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-transparent
+}
+
+.flex-standard-row-2{
+      @apply flex justify-center items-center gap-2
+}
+.flex-standard-row{
+      @apply flex justify-center items-center 
+}
+
+.flex-standard-col-2{
+      @apply flex flex-col justify-center items-center gap-2
+}
+.flex-standard-col{
+      @apply flex flex-col justify-center items-center gap-2
+}
+
+.standard-btn-rounded-blue{
+   @apply flex-standard-row-2 gradient-blue text-white rounded-full px-5
+}
