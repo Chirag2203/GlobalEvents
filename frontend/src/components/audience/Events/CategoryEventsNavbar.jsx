@@ -36,7 +36,7 @@ const AllEventsNavbar = () => {
   return (
     <div className="flex flex-col ">
       <CategoryEventsMiniNavbar />
-      <div className="bg-black w-full p-4 flex-standard-row-2">
+      <div className="bg-gray-200 dark:bg-gray-900 w-full p-4 flex-standard-row-2">
         <div className="flex items-start  gap-2 w-full">
           <div className="w-1/6">
             <Select>

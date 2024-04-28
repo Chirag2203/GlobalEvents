@@ -21,7 +21,7 @@ const menuItems = [
 
 const AllEventsMiniNavbar = () => {
   return (
-    <div className="flex-standard-row-2 justify-between px-2 py-1 bg-gray-100 w-full">
+    <div className="flex-standard-row-2 justify-between px-2 py-1 bg-gray-100 dark:bg-gray-800 w-full">
       <div className="flex-standard-row-2">
         {menuItems.map((item) => (
             <Link to={item.path} key={item.name}>

@@ -6,7 +6,7 @@ import React from "react";
 
 const CategoryEventsMiniNavbar = () => {
   return (
-    <div className="flex-standard-row-2 justify-end px-2 py-1 bg-gray-100">
+    <div className="flex-standard-row-2 justify-end px-2 py-1 bg-gray-100 dark:bg-gray-800">
       <Button variant="outline" className=" h-7">
         Nearby
       </Button>

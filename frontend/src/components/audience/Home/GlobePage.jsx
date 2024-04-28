@@ -395,7 +395,7 @@ export function GlobePage() {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-center pt-16 h-screen md:h-auto dark:bg-slate-950 bg-white relative w-full">
+    <div className="flex flex-row items-center justify-center pt-16 h-screen md:h-auto dark:bg-slate-950 bg-gray-100 relative w-full">
       <div className="w-full absolute inset-0 h-screen">
         <SparklesCore
           id="tsparticlesfullpage"
@@ -422,9 +422,9 @@ export function GlobePage() {
           }}
           className="div"
         >
-          <h2 className="text-center text-xl md:text-5xl uppercase font-bold text-black dark:text-white">
+          <p className="text-gradient-steel text-center text-xl md:text-5xl uppercase font-bold  ">
             We Connect you with the <br /> world of Events
-          </h2>
+          </p>
           
         </motion.div>
         <div className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-black to-white z-40" />
