@@ -59,7 +59,8 @@ const EventCard = ({ event }) => {
             ${event.price}
           </span>
           <Link
-            to={"/events/" + event.id}
+            // to={"/events/" + event.id}
+            to={`/events/category/event`}
             
           >
             <Button className="text-white bg-blue-700 hover:bg-blue-800   focus:ring-blue-300 font-medium rounded-lg text-sm text-center dark:bg-blue-600 dark:hover:bg-blue-700 h-8">View</Button>

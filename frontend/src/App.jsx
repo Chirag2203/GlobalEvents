@@ -3,13 +3,13 @@ import './App.css'
 import "./CSS/tailwindCss.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Login, Register } from './components/shared'
-import {  Event, Contact, Home, AllEventsHome,CategoryEvents } from './components/audience'
-import Navbar from './components/shared/Navbar/Navbar'
+import {  Contact, Home, AllEventsHome,CategoryEvents, EventHome, Navbar } from './components/audience'
+
 
 
 const App = () => {
   useEffect(() => {
-    if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    if (localStorage.theme === 'dark' || !('theme' in localStorage) ) {
       document.documentElement.classList.add('dark')
     } else {
       document.documentElement.classList.remove('dark')
@@ -26,9 +26,9 @@ const App = () => {
           
           {/* public routes */}
           <Route path="/" element={<Home />} />
-          <Route path="/event" element={<Event />} />
           <Route path="/events" element={<AllEventsHome />} />
           <Route path="/events/category" element= {<CategoryEvents />} />
+          <Route path="/events/category/event" element= {<EventHome />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>

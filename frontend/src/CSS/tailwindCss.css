@@ -18,12 +18,18 @@
 .gradient-red{
     @apply bg-gradient-to-tr from-red-700 to-rose-600
 }
+.gradient-red2{
+    @apply bg-gradient-to-tr from-red-700 to-rose-400 hover:to-rose-500 text-white
+}
 
 .gradient-yellow{
     @apply bg-gradient-to-tr from-amber-700 to-amber-600
 }
 .text-gradient-steel{
     @apply bg-gradient-to-br from-slate-300 to-slate-500 bg-clip-text text-transparent
+}
+.text-gradient-blue{
+    @apply bg-gradient-to-br from-blue-600 to-sky-500 bg-clip-text text-transparent
 }
 
 .flex-standard-row-2{
