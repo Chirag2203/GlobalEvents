@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { FaLocationDot } from "react-icons/fa6";
 import { FaCalendarAlt } from "react-icons/fa";
 import MoreEvents  from "./MoreEvents";
+import { Link } from "react-router-dom";
 
 const EventHome = () => {
   return (
@@ -17,9 +18,11 @@ const EventHome = () => {
             </p>
             <p>Instrumental, All India, Vocals</p>
           </div>
+          <Link to="/events/category/event/booking">
           <Button size={"lg"} className="text-lg gradient-red2 text-white">
             Book Now
           </Button>{" "}
+            </Link>
         </div>
         <div className="flex items-start justify-between mt-4 ">
           <div className="flex flex-col items-start  gap-1">

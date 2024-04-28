@@ -3,7 +3,7 @@ import './App.css'
 import "./CSS/tailwindCss.css"
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import { Login, Register } from './components/shared'
-import {  Contact, Home, AllEventsHome,CategoryEvents, EventHome, Navbar } from './components/audience'
+import {  Contact, Home, AllEventsHome,CategoryEvents, EventHome, Navbar, EventBooking } from './components/audience'
 
 
 
@@ -29,6 +29,7 @@ const App = () => {
           <Route path="/events" element={<AllEventsHome />} />
           <Route path="/events/category" element= {<CategoryEvents />} />
           <Route path="/events/category/event" element= {<EventHome />} />
+          <Route path="/events/category/event/booking" element= {<EventBooking />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
