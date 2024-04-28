@@ -17,7 +17,7 @@ const AllEventsLatest = () => {
       );
   return (
     <div className="flex-col flex items-start justify-start gap-2 w-5/6  mx-auto mt-4 ">
-      <p className="font-medium text-xl ">Latest Events</p>
+      <p className="section-heading">Latest Events</p>
       <Carousel
       plugins={[plugin.current]}
       className="w-full"

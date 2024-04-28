@@ -43,3 +43,7 @@
 .standard-btn-rounded-blue{
    @apply flex-standard-row-2 gradient-blue text-white rounded-full px-5
 }
+
+.section-heading{
+    @apply font-medium text-2xl text-gray-800 dark:text-gray-200 
+}

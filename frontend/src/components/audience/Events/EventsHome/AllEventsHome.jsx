@@ -3,6 +3,7 @@ import { AllEventsCarousel } from "./AllEventsCarousel";
 import AllEventsMiniNavbar from "./AllEventsMiniNavbar";
 import AllEventsLatest from "./AllEventsLatest";
 import  AllEventsBanner1  from "./AllEventsBanner1";
+import { AllEventsCategoriesSections } from "./AllEventsCategoriesSections";
 
 const AllEventsHome = () => {
   return (
@@ -13,6 +14,7 @@ const AllEventsHome = () => {
       </div>
       <AllEventsLatest/>
       <AllEventsBanner1/>
+      <AllEventsCategoriesSections/>
     </div>
   );
 };
